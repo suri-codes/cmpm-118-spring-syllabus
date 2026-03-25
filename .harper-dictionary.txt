@@ -1,2 +1,7 @@
 CMPM
+TA's
+TAs
+Twizzer
+When2Meet
 Zulip
+lean4
