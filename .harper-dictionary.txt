@@ -1,7 +1,10 @@
 CMPM
+GTech
+OS
 TA's
 TAs
 Twizzer
+Twizzler
 When2Meet
 Zulip
 lean4

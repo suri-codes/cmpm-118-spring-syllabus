@@ -39,8 +39,7 @@ As a member of the first cohort, you will be spending the first
 5-7 weeks learning different aspects of the Rust language,
 and applying that knowledge towards lab assignments. Some
 of these lab assignments will include working with the
-#link("https://github.com/twizzler-operating-system/twizzler")
-[Twizzler OS]. The last few weeks exist as spacers, where if we need more
+#link("https://github.com/twizzler-operating-system/twizzler")[Twizzler OS]. The last few weeks exist as spacers, where if we need more
 time to get onboarded to rust, we will use those weeks to do so. Though
 if we are on track, the remaining weeks will be spent getting a head
 start on your research interests, or contributing to Twizzer!
@@ -104,45 +103,152 @@ on the cohort).
 
 Then we take a quick break, and then flow into work time. Feel free to
 use this time to ask TA's any questions you have, collaborate with peers
-on lab assignments, or work on journal entries. We will be trying to
-make the lab a nicer place to work, and will be taking everyone's input
-to make that happen, whether that be nicer peripherals, snacks, etc.
+on lab assignments, or work on journal entries. We will be making the
+lab an awesome place to work, and will be taking everyone's input to
+make that happen, whether that be nicer peripherals, snacks, etc.
 
 == Grading
 
 
-#let components = ()
-
-1/3 participation
-
-1/3 notebook
-
-1/3 Assignment Completion
-
-//TODO: What exactly does Assignment completion mean?
-//
-// We are structuring this class for two groups, first timers
-// and second timers.
-//
-// It might be cool to have a final essay, kind of like a mini
-// bachelors thesis on the work you've done this quarter, especially
-// as a student taking it for the second time.
-//
-// And then for the first year students maybe it could be
-// the task stuff?
-//
-// My rationale for this is that as a student taking
-// this for the second time, the things you will be doing will
-// be open-ended, so judging peoples work is going to quite
-// qualitative. However it might be easier in an essay format though?
-//
-// Final essay doesnt sound so bad, could be something
-// like a thousand words going over motivation, process,
-// possible findings / implementation details and plans for whats
-// next?
+The two cohorts will have different grading categories.
 
 
+=== First Cohort
+
+#let components = (
+  ("Participation", 30),
+  ("Lab Assignments", 30),
+  (" Mid Quarter Notebook review", 10),
+  (" Final Notebook review", 30),
+)
+
+#align(center)[
+  #table(
+    columns: (auto, auto),
+    stroke: none,
+    align: (center, center),
+    [*Category*], [*Weight*],
+    ..components
+      .map(((name, weight)) => (
+        [#name],
+        [#weight%],
+      ))
+      .flatten(),
+  )
+]
+
+=== Second Cohort
+
+#let components = (
+  ("Participation", 30),
+  ("Research Project", 30),
+  (" Mid Quarter Notebook review", 10),
+  (" Final Notebook review", 30),
+)
+
+#align(center)[
+  #table(
+    columns: (auto, auto),
+    stroke: none,
+    align: (center, center),
+    [*Category*], [*Weight*],
+    ..components
+      .map(((name, weight)) => (
+        [#name],
+        [#weight%],
+      ))
+      .flatten(),
+  )
+]
+
+=== Participation
+
+Participation constitutes class attendance, taken by TA's at
+the start of class, and taking a part of weekly paper discussions.
+The expectation is that you attend every class session, but
+please reach out to course staff if you need an excused absence.
+
+=== Lab Assignments (First Cohort)
+
+The first cohort will have lab assignments related to the Rust language,
+as well as getting things running inside the Twizzler OS. Lab due
+dates will be posted when labs are released, and the expectation is
+to complete the labs within that time. We will do our best to ensure
+labs are able to be completed in the allotted time, but if not, we may
+reconsider extending a due date.
+
+We do not allow AI use on lab assignments as the purpose is to internalize the material,
+read more in our #link(<ai_policy>)[AI policy] section. However, feel
+free to discuss lab assignments with peers during class hours, but all
+submitted work must be your own.
+*We trust that you know the line between copy pasting and discussing ideas.*
+
+Lab assignments are considered submitted when you go to a TA for checkoff
+anytime before its due-date.
+
+You are also encouraged to ask TA's for help regarding these assignments.
+
+=== Research Project (Second Cohort)
+
+Instead of lab assignments, the second cohort will each be working on a research
+thrust of their choice. In the first few weeks of the course
+you will be set long term goals, as well as weekly actionable items,
+in collaboration with the teaching staff. Then the rest of the quarter
+will consist of making reasonable progress towards that goal. The expectation
+is to complete your long-term goal by the end of the quarter. However, we know
+first-hand that it's not always possible, so you can always discuss with
+the course staff to revise what you think can be accomplished by the end of the quarter.
+
+Your final grade in this category will be decided by how well you executed on
+your goal, lessons learned, any resulting artifacts, etc. This will vary
+per project so work closely with the course staff!
+
+
+=== Lab Notebook
+
+All students are expected to maintain a *Lab Notebook* to document their
+weekly progress, things they find interesting, to-do items etc.
+We borrow our notion of notebooks from the #link("https://www.vip-consortium.org/vip-handbook/vip-notebooks-0")[Georgia Tech VIP program]
+
+You will fill out an entry each week answering the following questions.
+
+- What did you do this week?
+- What do you plan to do in the coming week?
+- What, if anything, piqued your interest in the work you did this week?
+
+Additionally for your last notebook entry, it is expected to be a reflection
+on the work you've done for the whole quarter. More details will be released as
+that draws nearer.
+
+We expect the notebook to be a collection of dated Markdown files, that is
+hosted on GitHub. Please ask the TA's if you need help setting up a notebook.
+All we require is that each entry is its own file, and each file
+is dated to the day you wrote it.
+
+Currently we do not have a rubric but will roughly be following this #link("http://sites.gatech.edu/vipsiteresources/wp-content/uploads/sites/1221/2020/06/VIP-simple-notebook-rubric.docx")[rubric] from GTech.
+We plan to release our own rubric before the *Mid Quarter Notebook Review*.
+Speaking of which...
+
+==== Mid Quarter Notebook Review
+
+During week 5, you will be expected to submit your notebook to the TA, in the form
+of a GitHub repository link. This review is intended to be a check-in to help you
+make sure you're working on your notebook properly.
+
+==== Final Notebook Review
+
+You will submit your final notebook the same way as the mid quarter review.
+The course staff will evaluate it as a whole and assign it a grade. Note
+that if we requested improvements during your Mid Quarter review, and the notebook
+entries since then had those improvements, you will not be penalized for
+the first half of the notebook!
+
+
+#pagebreak()
 === Grading scale
+
+This will be the grading scale used when assigning final grades to percentages.
+There will be a SETS curve, announced later in the quarter.
 
 #let grades = (
   ("A+", 100, 97),
@@ -173,5 +279,20 @@ to make that happen, whether that be nicer peripherals, snacks, etc.
     .flatten(),
 )
 
-// idk if we need academic honesty / title IX stuff
+== Academic Honesty / AI Policy <ai_policy>
+
+All work you submit must be your own, but as this is a research class,
+discussion between peers is encouraged. As stated earlier, *we trust you
+know the difference between discussion and copy-pasting*.
+
+We also are aware that AI tools are quite useful, but can also take away
+from learning experiences. Feel free to use AI tools in anything but usage
+is *prohibited* in the following activities.
+
+- Any and all writing work, including all parts of your notebook.
+
+- Lab Assignments.
+
+If you find yourself needing help with any aspect of the class feel free
+to reach out to your peers and course staff first!
 
