@@ -11,8 +11,8 @@ in our area of research. For first time students (AKA first cohort), much of the
 and absorbing the #link("https://rust-lang.org/")[Rust] programming
 language, operating systems, security, and more! If you're taking this
 course for the second time (AKA second cohort), welcome back! You will be taking the skills
-you learned the first time around and applying them towards the research
-directions we have in the lab. Additionally, everyone will participate in
+you learned the first time around and applying them towards active research
+directions in the lab. Additionally, everyone will participate in
 weekly paper readings in the field.
 
 == Learning Outcomes
@@ -39,10 +39,11 @@ As a member of the first cohort, you will be spending the first
 5-7 weeks learning different aspects of the Rust language,
 and applying that knowledge towards lab assignments. Some
 of these lab assignments will include working with the
-#link("https://github.com/twizzler-operating-system/twizzler")[Twizzler OS]. The last few weeks exist as spacers, where if we need more
-time to get onboarded to rust, we will use those weeks to do so. Though
-if we are on track, the remaining weeks will be spent getting a head
-start on your research interests, or contributing to Twizzer!
+#link("https://github.com/twizzler-operating-system/twizzler")[Twizzler OS].
+The last few weeks exist as spacers; if we need more time to get
+onboarded onto Rust, we will use those weeks to do so. If we are
+on track, the remaining weeks will be spent getting a head start on your
+research interests, or contributing to Twizzer!
 
 === Second Cohort
 You will be focused on applying the skills you've learned last quarter
@@ -87,30 +88,30 @@ email if you have not been added yet.
 
 Since this is a smaller group, most communication will be happening
 through the LSD lab Zulip. However, some larger announcements will be
-sent through canvas.
+sent through Canvas.
 
 We will be meeting two times a week, currently TBA but this
-syllabus will be updated with the time chosen via a When2Meet.
-These sessions will be lead by at least one TA,
-and will around three hours.
+syllabus will be updated with the times chosen via a When2Meet.
+Each sessions will be lead by at least one TA,
+and will last around three hours.
 
-Every three hour block will be structured as follows
+Every three hour block will be structured as follows...
 
 The first 30 - 60 minutes will be literature review, where we
 discuss core ideas from the paper. This will be followed by
-status updates from each person on their lab work / research project (depending
+status updates from each person on their lab assignments / research project (depending
 on the cohort).
 
 Then we take a quick break, and then flow into work time. Feel free to
 use this time to ask TA's any questions you have, collaborate with peers
 on lab assignments, or work on journal entries. We will be making the
-lab an awesome place to work, and will be taking everyone's input to
+lab an awesome place to work, and take everyone's input to
 make that happen, whether that be nicer peripherals, snacks, etc.
 
 == Grading
 
 
-The two cohorts will have different grading categories.
+The two cohorts will have different grading criteria.
 
 
 === First Cohort
@@ -175,7 +176,7 @@ as well as getting things running inside the Twizzler OS. Lab due
 dates will be posted when labs are released, and the expectation is
 to complete the labs within that time. We will do our best to ensure
 labs are able to be completed in the allotted time, but if not, we may
-reconsider extending a due date.
+consider extending a due date.
 
 We do not allow AI use on lab assignments as the purpose is to internalize the material,
 read more in our #link(<ai_policy>)[AI policy] section. However, feel
@@ -183,26 +184,26 @@ free to discuss lab assignments with peers during class hours, but all
 submitted work must be your own.
 *We trust that you know the line between copy pasting and discussing ideas.*
 
-Lab assignments are considered submitted when you go to a TA for checkoff
-anytime before its due-date.
+Lab assignments are considered submitted when successfully checked off by a
+TA anytime before the lab due-date.
 
 You are also encouraged to ask TA's for help regarding these assignments.
 
 === Research Project (Second Cohort)
 
-Instead of lab assignments, the second cohort will each be working on a research
-thrust of their choice. In the first few weeks of the course
-you will be set long term goals, as well as weekly actionable items,
-in collaboration with the teaching staff. Then the rest of the quarter
-will consist of making reasonable progress towards that goal. The expectation
-is to complete your long-term goal by the end of the quarter. However, we know
-first-hand that it's not always possible, so you can always discuss with
-the course staff to revise what you think can be accomplished by the end of the quarter.
+Instead of lab assignments, the second cohort will each be working
+on a research thrust of their choice. In the first few weeks of the
+course you will set long term goals, as well as weekly actionable items,
+in collaboration with the teaching staff. The rest of the quarter will
+consist of making reasonable progress towards that goal. The expectation
+is to complete your long-term goal by the end of the quarter. However, we
+know first-hand that it's not always possible, so you can always discuss
+with the course staff to revise what you think can be accomplished by
+the end of the quarter.
 
 Your final grade in this category will be decided by how well you executed on
 your goal, lessons learned, any resulting artifacts, etc. This will vary
 per project so work closely with the course staff!
-
 
 === Lab Notebook
 
@@ -226,12 +227,14 @@ All we require is that each entry is its own file, and each file
 is dated to the day you wrote it.
 
 Currently we do not have a rubric but will roughly be following this #link("http://sites.gatech.edu/vipsiteresources/wp-content/uploads/sites/1221/2020/06/VIP-simple-notebook-rubric.docx")[rubric] from GTech.
-We plan to release our own rubric before the *Mid Quarter Notebook Review*.
+We will be releasing our own rubric before the *Mid Quarter Notebook
+Review*, which is roughly inline with the link above.
+
 Speaking of which...
 
 ==== Mid Quarter Notebook Review
 
-During week 5, you will be expected to submit your notebook to the TA, in the form
+During week 5, you will be expected to submit your notebook to a TA, in the form
 of a GitHub repository link. This review is intended to be a check-in to help you
 make sure you're working on your notebook properly.
 
@@ -240,7 +243,7 @@ make sure you're working on your notebook properly.
 You will submit your final notebook the same way as the mid quarter review.
 The course staff will evaluate it as a whole and assign it a grade. Note
 that if we requested improvements during your Mid Quarter review, and the notebook
-entries since then had those improvements, you will not be penalized for
+entries since then incorporate those improvements, you will not be penalized for
 the first half of the notebook!
 
 
@@ -286,7 +289,7 @@ discussion between peers is encouraged. As stated earlier, *we trust you
 know the difference between discussion and copy-pasting*.
 
 We also are aware that AI tools are quite useful, but can also take away
-from learning experiences. Feel free to use AI tools in anything but usage
+from learning experiences. Feel free to use AI tools but usage
 is *prohibited* in the following activities.
 
 - Any and all writing work, including all parts of your notebook.
