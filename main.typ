@@ -1,9 +1,12 @@
 #import "./template.typ": template
-#show: template
+#show: template.with(
+  title: "End to End Systems Security",
+  quarter: "Spring 2026",
+  course: "CMPM 118 - 13",
+)
 
-= CMPM 118 - End to End Systems Security
 
-== Course Summary
+= Course Summary
 
 This course is intended to give you the experience of working in an
 active research environment, and prepare you for future contributions
@@ -15,7 +18,7 @@ you learned the first time around and applying them towards active research
 directions in the lab. Additionally, everyone will participate in
 weekly paper readings in the field.
 
-== Learning Outcomes
+= Learning Outcomes
 
 By the end of this quarter you should be able to...
 
@@ -26,14 +29,14 @@ By the end of this quarter you should be able to...
 
 - Contribute towards current research directions within the lab.
 
-== Schedule
+= Schedule
 
 As this is a research oriented class, and being our second time offering
 this course, we do not have a concrete 10 week schedule yet, sorry about that!
 
 However, we can describe what the quarter is going to look like for each cohort.
 
-=== First Cohort
+== First Cohort
 
 As a member of the first cohort, you will be spending the first
 5-7 weeks learning different aspects of the Rust language,
@@ -45,7 +48,7 @@ onboarded onto Rust, we will use those weeks to do so. If we are
 on track, the remaining weeks will be spent getting a head start on your
 research interests, or contributing to Twizzer!
 
-=== Second Cohort
+== Second Cohort
 You will be focused on applying the skills you've learned last quarter
 towards research interests of your choosing. During the first / second
 week, we will have a list of research projects, and you will choose
@@ -58,7 +61,7 @@ Both cohorts will also be engaged in paper readings and discussions
 throughout the quarter.
 
 
-== Course Staff
+= Course Staff
 
 The best way to reach out to course staff is
 going to be through the LSD Lab Zulip. Please reach out to us via
@@ -84,7 +87,7 @@ email if you have not been added yet.
   )
 ]
 
-== Course Logistics
+= Course Logistics
 
 Since this is a smaller group, most communication will be happening
 through the LSD lab Zulip. However, some larger announcements will be
@@ -108,13 +111,13 @@ on lab assignments, or work on journal entries. We will be making the
 lab an awesome place to work, and take everyone's input to
 make that happen, whether that be nicer peripherals, snacks, etc.
 
-== Grading
+= Grading
 
 
 The two cohorts will have different grading criteria.
 
 
-=== First Cohort
+== First Cohort
 
 #let components = (
   ("Participation", 30),
@@ -138,7 +141,7 @@ The two cohorts will have different grading criteria.
   )
 ]
 
-=== Second Cohort
+== Second Cohort
 
 #let components = (
   ("Participation", 30),
@@ -162,14 +165,14 @@ The two cohorts will have different grading criteria.
   )
 ]
 
-=== Participation
+== Participation
 
 Participation constitutes class attendance, taken by TA's at
 the start of class, and taking a part of weekly paper discussions.
 The expectation is that you attend every class session, but
 please reach out to course staff if you need an excused absence.
 
-=== Lab Assignments (First Cohort)
+== Lab Assignments (First Cohort)
 
 The first cohort will have lab assignments related to the Rust language,
 as well as getting things running inside the Twizzler OS. Lab due
@@ -189,7 +192,7 @@ TA anytime before the lab due-date.
 
 You are also encouraged to ask TA's for help regarding these assignments.
 
-=== Research Project (Second Cohort)
+== Research Project (Second Cohort)
 
 Instead of lab assignments, the second cohort will each be working
 on a research thrust of their choice. In the first few weeks of the
@@ -205,7 +208,7 @@ Your final grade in this category will be decided by how well you executed on
 your goal, lessons learned, any resulting artifacts, etc. This will vary
 per project so work closely with the course staff!
 
-=== Lab Notebook
+== Lab Notebook
 
 All students are expected to maintain a *Lab Notebook* to document their
 weekly progress, things they find interesting, to-do items etc.
@@ -232,13 +235,13 @@ Review*, which is roughly inline with the link above.
 
 Speaking of which...
 
-==== Mid Quarter Notebook Review
+=== Mid Quarter Notebook Review
 
 During week 5, you will be expected to submit your notebook to a TA, in the form
 of a GitHub repository link. This review is intended to be a check-in to help you
 make sure you're working on your notebook properly.
 
-==== Final Notebook Review
+=== Final Notebook Review
 
 You will submit your final notebook the same way as the mid quarter review.
 The course staff will evaluate it as a whole and assign it a grade. Note
@@ -247,8 +250,7 @@ entries since then incorporate those improvements, you will not be penalized for
 the first half of the notebook!
 
 
-#pagebreak()
-=== Grading scale
+== Grading scale
 
 This will be the grading scale used when assigning final grades to percentages.
 There will be a SETS curve, announced later in the quarter.
@@ -275,14 +277,14 @@ There will be a SETS curve, announced later in the quarter.
   [*Grade*], [*Min*], [*Max*],
   ..grades
     .map(((g, max, min)) => (
-      text(fill: blue)[*#g*],
+      align(left)[#text(fill: blue)[*#g*]],
       [#min%],
       [#max%],
     ))
     .flatten(),
 )
 
-== Academic Honesty / AI Policy <ai_policy>
+= Academic Honesty / AI Policy <ai_policy>
 
 All work you submit must be your own, but as this is a research class,
 discussion between peers is encouraged. As stated earlier, *we trust you
