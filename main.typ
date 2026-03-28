@@ -1,6 +1,6 @@
 #import "./template.typ": template
 #show: template.with(
-  title: "End to End Systems Security",
+  title: "End-to-End Systems Security",
   quarter: "Spring 2026",
   course: "CMPM 118 - 13",
 )
@@ -64,7 +64,7 @@ throughout the quarter.
 = Course Staff
 
 The best way to reach out to course staff is
-going to be through the #link("https://ucsc-lsdlab.zulipchat.com/")[LSD Lab Zulip chat]. 
+going to be through the #link("https://ucsc-lsdlab.zulipchat.com/")[LSD Lab Zulip chat].
 Please reach out to us via email if you have not been added yet.
 
 #let staff = (
@@ -124,7 +124,7 @@ The two cohorts will have different grading criteria.
 #let components = (
   ("Participation", 30),
   ("Lab Assignments", 30),
-  (" Mid-quarter Notebook review", 10),
+  (" Mid Quarter Notebook review", 10),
   (" Final Notebook review", 30),
 )
 
