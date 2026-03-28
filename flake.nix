@@ -32,6 +32,7 @@
             packages =
               with pkgs;
               [
+		just
                 typst
                 typstyle
                 tinymist
