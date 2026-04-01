@@ -92,18 +92,32 @@ Please reach out to us via email if you have not been added yet.
 Since this is a smaller group, most asynchronous communication will happen
 through the LSD lab Zulip (but we may send some announcements both Zulip and Canvas).
 
-We will meet twice a week in person in the lab (E2-398).  We will
-determine the meeting times for the quarter in the first week based on everyone's availability, so
-*Please fill out the #link("https://crab.fit/cmpm-118-spring-2026-267812")[When2Meet] as soon as possible*.
 
-We will announce the meeting times and update the syllabus as soon as we have everyone's availability.
-Each session will be led by at least one TA,
-and will last around three hours.
+Course Meetings will be held as follows.
+#let staff = (
+  ("Tuesday", "Surendra"),
+  ("Thursday", "Max"),
+)
 
-Each three-hour block will be structured as follows:
+#align(center)[
+  #table(
+    columns: (auto, auto, auto, auto),
+    [*Day*], [*Time*], [*TA*], [*Room*],
+    ..staff
+      .map(((day, ta)) => (
+        [#day],
+        [2pm-5pm],
+        [#ta],
+        [E2-398],
+      ))
+      .flatten(),
+  )
+]
+
+Each three-hour block will be structured like so:
 
 The first 30-60 minutes will be literature review, where we
-discuss core ideas from the paper. Then, we will have time for
+discuss core ideas from a paper. Then, we will have time for
 status updates from each person on their lab assignments / research project (depending
 on the cohort).
 
@@ -114,7 +128,6 @@ lab an awesome place to work, and take everyone's input to
 make that happen, whether that be nicer peripherals, snacks, etc.
 
 = Grading
-
 
 The two cohorts will have different grading criteria.
 
@@ -167,12 +180,17 @@ The two cohorts will have different grading criteria.
   )
 ]
 
+#pagebreak()
 == Participation
 
-Participation consists of class attendance, taken by TAs at
-the start of class, and participating in weekly paper discussions.
-We expect you to attend every class session, but
-please reach out to course staff if you need an excused absence.
+Participation consists of class attendance, taken by TAs throughout the
+class session, and participating in weekly paper discussions.
+
+*Note:* As we are aware that not everyone can make it to both sessions,
+you will get full participation credit for the week if you attend
+at least one session.
+
+However, we encourage you to attend both sections if you can!
 
 == Lab Assignments (First Cohort)
 
@@ -182,11 +200,12 @@ dates will be posted once labs are released. We will do our best to ensure
 labs are able to be completed in the allotted time, but if not, we may
 consider extending the due dates.
 
-We do not allow AI use on lab assignments as their purpose is to work with and internalize the material-
-read more in the #link(<ai_policy>)[AI policy] section. However, feel
-free to discuss lab assignments with peers during class hours, although all
-submitted work must be your own.
-*We trust that you know the line between copy pasting and discussing ideas.*
+We do not allow AI use on lab assignments as their purpose is to work
+with and internalize the material -- read more in the #link(<ai_policy>)[AI
+  policy] section. Nevertheless, feel free to discuss lab assignments with
+peers during class hours, although all submitted work must be your own.
+*We trust that you know the line between copy pasting and discussing
+ideas.*
 
 Lab assignments are considered submitted when successfully checked off by a
 TA anytime before the lab due date.
